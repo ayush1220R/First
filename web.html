@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Zone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Library Zone</h1>
+    <input type="text" id="search-bar" placeholder="Search for books..." oninput="searchBooks()">
+  </header>
+
+  <div class="section">
+    <h2>First Year Books</h2>
+    <div class="book-list" id="first-year-books"></div>
+  </div>
+
+  <div class="section">
+    <h2>Second Year Books</h2>
+    <div class="book-list" id="second-year-books"></div>
+  </div>
+
+  <div class="section">
+    <h2>Final Year Books</h2>
+    <div class="book-list" id="final-year-books"></div>
+  </div>
+
+  <div class="book-viewer" id="book-viewer">
+    <div id="pdf-container">
+      <canvas id="pdf-canvas"></canvas>
+    </div>
+    <button id="previous
